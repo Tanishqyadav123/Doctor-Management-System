@@ -16,7 +16,7 @@ connectDB()
 app.use(express.json())
 app.use(express.urlencoded({extended : true}))
 app.use(cors({
-     origin : ["http://localhost:5173" , "http://localhost:5174"],
+     origin : ["https://doctor-management-system-nine.vercel.app" , "https://doctor-management-system-ll9a.vercel.app"],
      credentials : true
 }))
 app.use(cookieParser())
