@@ -265,5 +265,5 @@ export const myAppointmentsData : appointmentDataType[] = [
   
 ]
 
-export const BACKEND_URL = "https://doctor-management-system-pd7y.vercel.app/api/v1/doctor"
+export const BACKEND_URL = "https://doctor-management-system-pd7y.vercel.app/api/v1"
 export const RAZORPAY_KEY_ID = "rzp_test_Aj1F2Vj9lNe3L0"
