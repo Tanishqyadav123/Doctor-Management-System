@@ -21,8 +21,7 @@ function Navbar() {
              <div className='links flex items-center justify-center gap-8'>
                  <NavLink to={"/"}>Home</NavLink>
                  <NavLink to={"/allDoctors"}>All Doctors</NavLink>
-                 <NavLink to={"/about"}>About</NavLink>
-                 <NavLink to={"/contact"}>Contact</NavLink>
+                
              </div>
             {
                isAuthUser ?  <ProfilePopOver /> : 

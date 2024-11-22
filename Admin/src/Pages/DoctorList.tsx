@@ -1,8 +1,7 @@
 import AdminContext from '@/Context/adminContext'
 import SideBar from '@/MyComponents/SideBar'
-import SingleDoctorCard from '@/MyComponents/singleDoctorCard'
-import { fetchAllDoctorsService } from '@/Services/Admin/AddingNewDoctorServices'
-import React, { useContext, useEffect, useState } from 'react'
+import SingleDoctorCard from '../MyComponents/SingleDoctorCard'
+import { useContext, useEffect, useState } from 'react'
 
 function DoctorList() {
 
