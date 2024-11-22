@@ -3,10 +3,10 @@ import "dotenv/config"
 import cors from 'cors'
 import cookieParser from "cookie-parser"
 import { connectDB } from "./Configuration/connectDB.js";
-import adminRouter from './Routes/adminRoutes.js'
-import doctorRouter from './Routes/doctorRouter.js'
-import userRouter from './Routes/userRouter.js'
-import appointmentRouter from './Routes/AppointmentRoutes.js'
+import adminRouter from './api/adminRoutes.js'
+import doctorRouter from './api/doctorRouter.js'
+import userRouter from './api/userRouter.js'
+import appointmentRouter from './api/AppointmentRoutes.js'
 const app = express()
 
 // Connecting the Database :-
